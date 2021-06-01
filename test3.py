@@ -3,7 +3,7 @@ from random import randint
 from time import sleep
  
 window = display.set_mode((700, 500))
-display.set_caption("Догонялки")
+display.set_caption("Поймай яблоко")
 background = transform.scale(image.load("c:\\test\\background.jpg"), (700, 500))
 
 font.init()
